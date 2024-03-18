@@ -36,10 +36,10 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="Data" />
+                <Text {...discountAmount} content="" />
                 <Text
                   {...discountText}
-                  content=" and Artificial Intelligence Services"
+                  content="Data and Artificial Intelligence Services"
                 />
               </DiscountLabel>
             </DiscountWrapper>

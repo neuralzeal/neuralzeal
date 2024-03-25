@@ -1,18 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Link from 'next/link';
-import Box from 'common/components/Box';
-import Text from 'common/components/Text';
-import Heading from 'common/components/Heading';
-import Button from 'common/components/Button';
-import Card from 'common/components/Card';
-import NextImage from 'common/components/NextImage';
-import Container from 'common/components/UI/Container';
+import React from "react";
+import PropTypes from "prop-types";
+import Link from "next/link";
+import Box from "common/components/Box";
+import Text from "common/components/Text";
+import Heading from "common/components/Heading";
+import Button from "common/components/Button";
+import Card from "common/components/Card";
+import NextImage from "common/components/NextImage";
+import Container from "common/components/UI/Container";
 
-import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/dash-1.png';
-import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
-import { Fade } from 'react-awesome-reveal';
+import InfoSectionWrapper from "./info.style";
+import ImageOne from "common/assets/image/saasModern/dash-1.png";
+import ImageTwo from "common/assets/image/saasModern/dash-2.png";
+import { Fade } from "react-awesome-reveal";
 
 const InfoSection = ({
   row,
@@ -34,12 +34,12 @@ const InfoSection = ({
         <Box {...row} {...imageAreaRow}>
           <Box {...col} {...imageArea} className="image_area">
             <Card {...imageWrapper} {...imageWrapperOne}>
-              <Fade direction='left' triggerOnce>
+              <Fade direction="left" triggerOnce>
                 <NextImage src={ImageOne} alt="Info Image One" />
               </Fade>
             </Card>
             <Card {...imageWrapper} {...imageWrapperTwo}>
-              <Fade direction='down' triggerOnce>
+              <Fade direction="down" triggerOnce>
                 <NextImage src={ImageTwo} alt="Info Image Two" />
               </Fade>
             </Card>
@@ -51,11 +51,11 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Make your website growth with next level visitors"
+              content="Fuel Your Growth with High-Performance Data Analytics"
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!."
+              content="At NeuralZeal Data Analytics, we harness the power of cutting-edge data processing technologies and scalable architectures to accelerate your journey towards data-driven insights and growth. Our optimized data pipelines and high-performance infrastructure ensure efficient data ingestion, transformation, and analysis, empowering you to make informed decisions and unlock new opportunities for your business."
             />
             <Box>
               <Link href="#">
@@ -87,56 +87,56 @@ InfoSection.propTypes = {
 InfoSection.defaultProps = {
   row: {
     flexBox: true,
-    flexWrap: 'wrap',
-    ml: '-15px',
-    mr: '-15px',
+    flexWrap: "wrap",
+    ml: "-15px",
+    mr: "-15px",
   },
   textAreaRow: {
-    flexDirection: 'row-reverse',
+    flexDirection: "row-reverse",
   },
   col: {
-    pr: '15px',
-    pl: '15px',
+    pr: "15px",
+    pl: "15px",
   },
   textArea: {
-    width: ['100%', '100%', '50%', '50%', '42%'],
+    width: ["100%", "100%", "50%", "50%", "42%"],
   },
   imageArea: {
-    width: ['100%', '100%', '50%', '50%', '55%'],
+    width: ["100%", "100%", "50%", "50%", "55%"],
     flexBox: true,
   },
   imageWrapper: {
-    boxShadow: 'none',
+    boxShadow: "none",
   },
   imageWrapperOne: {
-    mr: ['-250px', '-250px', '-200px', '-250px', '-400px'],
+    mr: ["-250px", "-250px", "-200px", "-250px", "-400px"],
   },
   imageWrapperTwo: {
-    alignSelf: 'flex-end',
-    mb: '-60px',
+    alignSelf: "flex-end",
+    mb: "-60px",
   },
   title: {
-    fontSize: ['26px', '32px', '36px', '40px', '48px'],
-    fontWeight: '400',
-    color: '#0f2137',
-    letterSpacing: '-0.025em',
-    mb: '20px',
-    lineHeight: '1.25',
+    fontSize: ["26px", "32px", "36px", "40px", "48px"],
+    fontWeight: "400",
+    color: "#0f2137",
+    letterSpacing: "-0.025em",
+    mb: "20px",
+    lineHeight: "1.25",
   },
   description: {
-    fontSize: ['15px', '15px', '15px', '16px', '16px'],
-    color: '#343d48cc',
-    lineHeight: '2',
-    mb: '33px',
+    fontSize: ["15px", "15px", "15px", "16px", "16px"],
+    color: "#343d48cc",
+    lineHeight: "2",
+    mb: "33px",
   },
   button: {
-    type: 'button',
-    fontSize: '14px',
-    fontWeight: '600',
-    borderRadius: '4px',
-    pl: '22px',
-    pr: '22px',
-    colors: 'secondaryWithBg',
+    type: "button",
+    fontSize: "14px",
+    fontWeight: "600",
+    borderRadius: "4px",
+    pl: "22px",
+    pr: "22px",
+    colors: "secondaryWithBg",
   },
 };
 

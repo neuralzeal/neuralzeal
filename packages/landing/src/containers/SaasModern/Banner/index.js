@@ -39,14 +39,14 @@ const BannerSection = ({
                 <Text {...discountAmount} content="" />
                 <Text
                   {...discountText}
-                  content="Data and Artificial Intelligence Services"
+                  content="Fueling Innovation with Data Wisdom"
                 />
               </DiscountLabel>
             </DiscountWrapper>
-            <Heading {...title} content="NeuralZeal Analtics Private Limited" />
+            <Heading {...title} content="NeuralZeal Analytics" />
             <Text
               {...description}
-              content="Neural Zeal Analytics is a forward-thinking company specializing in advanced analytics solutions, with a particular focus on neural networks and deep learning technologies."
+              content="NeuralZeal Analytics is a forward-thinking company specializing in advanced analytics solutions, with a particular focus on neural networks and deep learning technologies. Founded by a team of seasoned experts in data science, machine learning, and artificial intelligence, we bring together a wealth of experience and a relentless drive to deliver transformative results for our clients."
             />
             <Box {...buttonWrapper}>
               <Link href="#">
@@ -69,7 +69,7 @@ const BannerSection = ({
                       width="850"
                       height="505"
                       src="https://www.youtube.com/embed/hW98BFnVCm8"
-                      title="NeuralZeal Analtics Private Limited"
+                      title="NeuralZeal Analtics Pvt Ltd"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowfullscreen

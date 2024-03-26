@@ -1,24 +1,27 @@
-import React, { Fragment } from 'react';
-import Head from 'next/head';
-import { ThemeProvider } from 'styled-components';
-import Sticky from 'react-stickynode';
-import { DrawerProvider } from 'common/contexts/DrawerContext';
-import { saasModernTheme } from 'common/theme/saasModern';
-import ResetCSS from 'common/assets/css/style';
-import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
+import React, { Fragment } from "react";
+import Head from "next/head";
+import { ThemeProvider } from "styled-components";
+import Sticky from "react-stickynode";
+import { DrawerProvider } from "common/contexts/DrawerContext";
+import { saasModernTheme } from "common/theme/saasModern";
+import ResetCSS from "common/assets/css/style";
+import {
+  GlobalStyle,
+  ContentWrapper,
+} from "containers/SaasModern/sassModern.style";
 
-import BannerSection from 'containers/SaasModern/Banner';
-import Navbar from 'containers/SaasModern/Navbar';
-import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
-import PricingSection from 'containers/SaasModern/Pricing';
-import PartnerSection from 'containers/SaasModern/Partner';
-import FaqSection from 'containers/SaasModern/Faq';
-import TrialSection from 'containers/SaasModern/Trial';
-import InfoSection from 'containers/SaasModern/Info';
-import FeatureSection from 'containers/SaasModern/Feature';
-import UpdateScreen from 'containers/SaasModern/UpdateScreen';
-import TestimonialSection from 'containers/SaasModern/Testimonial';
-import Footer from 'containers/SaasModern/Footer';
+import BannerSection from "containers/SaasModern/Banner";
+import Navbar from "containers/SaasModern/Navbar";
+import WorkingProcessSection from "containers/SaasModern/WorkingProcess";
+import PricingSection from "containers/SaasModern/Pricing";
+import PartnerSection from "containers/SaasModern/Partner";
+import FaqSection from "containers/SaasModern/Faq";
+import TrialSection from "containers/SaasModern/Trial";
+import InfoSection from "containers/SaasModern/Info";
+import FeatureSection from "containers/SaasModern/Feature";
+import UpdateScreen from "containers/SaasModern/UpdateScreen";
+import TestimonialSection from "containers/SaasModern/Testimonial";
+import Footer from "containers/SaasModern/Footer";
 
 const SaasModern = () => {
   return (
@@ -49,7 +52,7 @@ const SaasModern = () => {
           <InfoSection />
           <FeatureSection />
           <UpdateScreen />
-          <PricingSection />
+          {/* <PricingSection /> */}
           <PartnerSection />
           <TestimonialSection />
           <FaqSection />

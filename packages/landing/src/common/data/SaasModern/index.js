@@ -233,22 +233,23 @@ export const FAQ_DATA = [
     expend: true,
     title: "How to contact with Customer Service?",
     description:
-      "Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ",
+      "Our Customer Experience Team is available 7 days a week and you can reach us at sales@neuralzeal.com . We try to reply quickly, so you need not to wait too long for a response!. ",
   },
   {
-    title: "App installation failed, how to update system information?",
+    title:
+      "Can you customize data analytics solutions to meet my specific business needs?",
     description:
-      "Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ",
+      "Yes, we understand that every business is unique, and we tailor our data analytics solutions to address your specific requirements and objectives. Whether you need predictive analytics, business intelligence dashboards, data visualization tools, or custom analytics models, our team will work closely with you to design and implement a solution that aligns with your business goals and delivers actionable insights.",
   },
   {
-    title: "Website reponse taking time, how to improve?",
+    title: "How secure is my data with your data analytics services?",
     description:
-      "At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .",
+      "At our company, we take data security and privacy seriously. We employ industry-standard security measures to protect your data from unauthorized access, misuse, and loss. Our data analytics solutions adhere to strict security protocols and compliance standards to ensure the confidentiality, integrity, and availability of your data.",
   },
   {
-    title: "New update fixed all bug and issues?",
+    title: "What types of data can be analyzed with data analytics?",
     description:
-      "We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .",
+      "Data analytics can analyze various types of data, including structured data (such as databases and spreadsheets) and unstructured data (such as text documents, social media posts, and multimedia files). It can also handle different data sources, including internal data from your business systems and external data from third-party sources.",
   },
 ];
 
@@ -415,27 +416,27 @@ export const SCREENSHOTS = [
 
 export const TESTIMONIALS = [
   {
-    title: "Modern look & trending design",
+    title: "A Game-Changer for Our Business",
     review:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    name: "Jon Doe",
-    designation: "CEO of Dell Co.",
+      "NeuralZeal exceeded my expectations! Their data analytics services were top-notch, and their team was incredibly knowledgeable and helpful. I am grateful for their expertise and dedication. Thank you, NeuralZeal Data Analytics Private Limited!",
+    name: "Emily Johnson",
+    designation: "CTO",
     avatar: AuthorOne,
   },
   {
-    title: "Modern look & trending design",
+    title: "Exceptional Service, Unparalleled Results",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur.",
-    name: "Jon Doe",
-    designation: "Co Founder of IBM",
+      "NeuralZeal Data Analytics Private Limited has been a game-changer for my business. Their expertise in data analytics and exceptional customer service have truly made a positive impact. Thank you for your outstanding work, NeuralZeal!",
+    name: "Sara Doe",
+    designation: "Marketing Director",
     avatar: AuthorTwo,
   },
   {
-    title: "Modern look & trending design",
+    title: "Empowering Our Team with Innovative Solutions",
     review:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    name: "Jeny Doe",
-    designation: "Manager of Hp co.",
+      "NeuralZeal Data Analytics is exceptional! Their expertise in data analytics is top-notch, and their team is professional and knowledgeable. I was impressed by their attention to detail and exceptional customer service. Thank you for your great work, NeuralZeal!",
+    name: "Michael Thompson",
+    designation: "Head of Operations",
     avatar: AuthorThree,
   },
 ];

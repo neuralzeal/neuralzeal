@@ -52,7 +52,7 @@ const SaasModern = () => {
           <InfoSection />
           <FeatureSection />
           <UpdateScreen />
-          <PricingSection />
+          {/* <PricingSection /> */}
           <PartnerSection />
           <TestimonialSection />
           <FaqSection />

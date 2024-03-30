@@ -16,7 +16,7 @@ const ContactUs = () => {
             <Heading
               as="h3"
               className="color2"
-              content="Contact us our supporter team"
+              content="Contact our sales team sales@neuralzeal.com"
             />
           </Box>
           <Box className="buttonBox">

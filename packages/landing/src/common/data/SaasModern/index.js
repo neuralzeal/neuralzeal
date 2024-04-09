@@ -394,22 +394,22 @@ export const FEATURES = [
 export const SCREENSHOTS = [
   {
     icon: ic_monetization_on,
-    title: "Budget Overview",
+    title: "Predictive Analytics",
     image: Screenshot2,
   },
   {
     icon: ic_settings,
-    title: "Create & Adjust",
+    title: "Data Visualization",
     image: Screenshot1,
   },
   {
     icon: pieChart,
-    title: "View Reports",
+    title: "Data Mining",
     image: Screenshot2,
   },
   {
     icon: briefcase,
-    title: "Integrations",
+    title: "Business Intelligence Reporting",
     image: Screenshot1,
   },
 ];

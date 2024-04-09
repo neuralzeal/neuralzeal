@@ -19,8 +19,8 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="UPDATE" />
-          <Heading {...secHeading} content="Meet our new updated screen" />
+          <Text {...secText} content="SERVICES" />
+          <Heading {...secHeading} content="Services we offer to our customers" />
         </Box>
         <Tabs className="update-screen-tab">
           {SCREENSHOTS.map((item, index) => (

@@ -68,7 +68,7 @@ const BannerSection = ({
                     <iframe
                       width="850"
                       height="505"
-                      src="https://www.youtube.com/embed/hW98BFnVCm8"
+                      src="https://www.youtube.com/watch?v=09bWelcGHHM"
                       title="NeuralZeal Analtics Pvt Ltd"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
